@@ -106,14 +106,14 @@ export const PricingCard = ({
           </div>
           <div>
             <h3
-              className="text-xl font-bold"
+              className="text-lg font-bold"
               style={{ color: "hsl(210 40% 98%)" }}
             >
               {name}
             </h3>
             {subtitle && (
               <p
-                className="text-sm font-medium"
+                className="text-xs font-medium"
                 style={{ color: "hsl(180 60% 50%)" }}
               >
                 {subtitle}
@@ -122,7 +122,7 @@ export const PricingCard = ({
           </div>
         </div>
         <p
-          className="text-sm leading-relaxed"
+          className="text-xs leading-relaxed"
           style={{ color: "hsl(215 20% 65%)" }}
         >
           {description}
@@ -135,11 +135,11 @@ export const PricingCard = ({
         style={{ borderColor: "hsl(220 20% 20% / 0.3)" }}
       >
         <div className="flex items-baseline gap-1">
-          <span className="text-sm" style={{ color: "hsl(215 20% 65%)" }}>
+          <span className="text-xs" style={{ color: "hsl(215 20% 65%)" }}>
             USD
           </span>
           <span
-            className="text-4xl font-bold"
+            className="text-3xl font-bold"
             style={
               popular
                 ? {
@@ -169,17 +169,17 @@ export const PricingCard = ({
             >
               <div className="flex items-center gap-2.5">
                 <Check
-                  className="w-4 h-4 flex-shrink-0"
+                  className="w-3.5 h-3.5 flex-shrink-0"
                   style={{
                     color: popular ? "hsl(28 90% 55%)" : "hsl(180 60% 50%)",
                   }}
                 />
-                <span className="text-sm" style={{ color: "hsl(215 20% 65%)" }}>
+                <span className="text-xs" style={{ color: "hsl(215 20% 65%)" }}>
                   {feature.label}
                 </span>
               </div>
               <span
-                className="text-sm font-medium text-right"
+                className="text-xs font-medium text-right"
                 style={{ color: "hsl(210 40% 98%)" }}
               >
                 {feature.value}
@@ -195,7 +195,7 @@ export const PricingCard = ({
           href="https://docs.google.com/forms/d/e/1FAIpQLSfvYxwGtn9eYxJY1AbW_6lu8rFZdCa381Zou6Jo9kisOYdYQw/viewform"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full py-3.5 px-6 rounded-xl font-semibold transition-all duration-300 block text-center"
+          className="w-full py-3 px-5 rounded-xl text-sm font-semibold transition-all duration-300 block text-center"
           style={
             popular
               ? {
