@@ -52,12 +52,6 @@ const Navbar = () => {
               Beneficios
             </a>
             <a
-              href="/pricing"
-              className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium"
-            >
-              Precios
-            </a>
-            <a
               href="/#security"
               className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium"
             >
@@ -113,13 +107,6 @@ const Navbar = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               Beneficios
-            </a>
-            <a
-              href="/pricing"
-              className="text-white/90 hover:text-white transition-colors duration-300 py-2 text-center"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Precios
             </a>
             <a
               href="/#security"
