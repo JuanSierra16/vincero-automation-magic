@@ -40,19 +40,25 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-6">
             <a
-              href="#how-it-works"
+              href="/#how-it-works"
               className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium"
             >
               Cómo funciona
             </a>
             <a
-              href="#benefits"
+              href="/#benefits"
               className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium"
             >
               Beneficios
             </a>
             <a
-              href="#security"
+              href="/pricing"
+              className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium"
+            >
+              Precios
+            </a>
+            <a
+              href="/#security"
               className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium"
             >
               Seguridad
@@ -95,21 +101,28 @@ const Navbar = () => {
         >
           <div className="flex flex-col space-y-4">
             <a
-              href="#how-it-works"
+              href="/#how-it-works"
               className="text-white/90 hover:text-white transition-colors duration-300 py-2 text-center"
               onClick={() => setMobileMenuOpen(false)}
             >
               Cómo funciona
             </a>
             <a
-              href="#benefits"
+              href="/#benefits"
               className="text-white/90 hover:text-white transition-colors duration-300 py-2 text-center"
               onClick={() => setMobileMenuOpen(false)}
             >
               Beneficios
             </a>
             <a
-              href="#security"
+              href="/pricing"
+              className="text-white/90 hover:text-white transition-colors duration-300 py-2 text-center"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Precios
+            </a>
+            <a
+              href="/#security"
               className="text-white/90 hover:text-white transition-colors duration-300 py-2 text-center"
               onClick={() => setMobileMenuOpen(false)}
             >
